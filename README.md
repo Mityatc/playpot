@@ -35,10 +35,10 @@ playpot/
 ## 🛠️ Planned Tech Stack
 
 - **Frontend:** React.js + Tailwind CSS
-- **Backend:** Node.js + Express
-- **Database:** Firebase Firestore
-- **Authentication:** Firebase Auth
-- **Hosting:** Firebase Hosting / Vercel
+- **Database:** PostgreSQL (Supabase)
+- **Authentication:** Supabase Auth
+- **API:** Supabase Auto-generated REST/GraphQL
+- **Hosting:** Vercel / Netlify
 
 ## 👥 Core Features
 

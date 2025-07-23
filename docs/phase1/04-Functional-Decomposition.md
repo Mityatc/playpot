@@ -35,7 +35,7 @@ graph TB
     end
     
     subgraph "Data Layer"
-        DB[Firebase Firestore]
+        DB[Supabase PostgreSQL]
         STORAGE[File Storage]
         CACHE[Caching Layer]
     end
@@ -95,9 +95,9 @@ PlayPot System
 │   └── 3.4 Backup & Recovery
 │
 └── 4.0 External Services Module
-    ├── 4.1 Firebase Authentication
-    ├── 4.2 Firebase Firestore
-    ├── 4.3 Firebase Hosting
+    ├── 4.1 Supabase Authentication
+    ├── 4.2 Supabase PostgreSQL
+    ├── 4.3 Vercel/Netlify Hosting
     └── 4.4 Analytics Services
 ```
 
@@ -346,28 +346,28 @@ PlayPot System
 
 ### 4.4 External Services Module (4.0)
 
-#### 4.4.1 Firebase Authentication (4.1)
+#### 4.4.1 Supabase Authentication (4.1)
 ```
-4.1 Firebase Authentication
+4.1 Supabase Authentication
 ├── 4.1.1 User Registration
 ├── 4.1.2 Email/Password Authentication
 ├── 4.1.3 Session Management
 └── 4.1.4 Password Reset
 ```
 
-#### 4.4.2 Firebase Firestore (4.2)
+#### 4.4.2 Supabase PostgreSQL (4.2)
 ```
-4.2 Firebase Firestore
-├── 4.2.1 Document Operations
-├── 4.2.2 Collection Queries
-├── 4.2.3 Real-time Listeners
-└── 4.2.4 Security Rules
+4.2 Supabase PostgreSQL
+├── 4.2.1 SQL Operations (CRUD)
+├── 4.2.2 Complex Queries & Joins
+├── 4.2.3 Real-time Subscriptions
+└── 4.2.4 Row Level Security
 ```
 
-#### 4.4.3 Firebase Hosting (4.3)
+#### 4.4.3 Vercel/Netlify Hosting (4.3)
 ```
-4.3 Firebase Hosting
-├── 4.3.1 Static File Hosting
+4.3 Vercel/Netlify Hosting
+├── 4.3.1 Static Site Hosting
 ├── 4.3.2 SSL Certificate Management
 ├── 4.3.3 CDN Distribution
 └── 4.3.4 Custom Domain Configuration

@@ -39,7 +39,7 @@
 ### 👥 Stakeholders Defined
 - **Primary Users:** Admin/Match Organizer
 - **Secondary Users:** Players (future enhancement)
-- **External Services:** Firebase Auth, Firestore, Hosting
+- **External Services:** Supabase Auth, PostgreSQL, Hosting
 
 ### 📱 User Experience Mapped
 - **Mobile-First Design** approach
@@ -88,10 +88,10 @@
 | Layer | Technology | Justification |
 |-------|------------|---------------|
 | **Frontend** | React.js + Tailwind CSS | Component-based, responsive, fast development |
-| **Backend** | Node.js + Express | JavaScript consistency, Firebase integration |
-| **Database** | Firebase Firestore | NoSQL flexibility, real-time updates, managed service |
-| **Authentication** | Firebase Auth | Secure, managed, easy integration |
-| **Hosting** | Firebase Hosting | Static hosting, CDN, SSL included |
+| **Database** | PostgreSQL (Supabase) | ACID compliance, SQL power, financial precision |
+| **Authentication** | Supabase Auth | Secure, managed, easy integration |
+| **API** | Supabase Auto-generated | REST/GraphQL, no backend coding needed |
+| **Hosting** | Vercel / Netlify | Static hosting, CDN, SSL included, free tier |
 | **State Management** | React Context | Sufficient for MVP scope |
 
 ---
@@ -108,7 +108,7 @@
 ### 🟡 Medium Priority Risks
 | Risk | Mitigation |
 |------|------------|
-| **Firebase Limitations** | Research quotas, prepare alternatives |
+| **Supabase Limitations** | Research quotas, prepare alternatives |
 | **Mobile Responsiveness** | Mobile-first design approach |
 | **Data Integrity** | Implement validation at multiple layers |
 

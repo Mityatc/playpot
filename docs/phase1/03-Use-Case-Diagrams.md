@@ -21,7 +21,7 @@ This document presents the use case diagrams for PlayPot, illustrating the inter
 
 ### 2.2 Secondary Actors
 - **System Timer:** Automated system processes
-- **Firebase Services:** External authentication and database services
+- **Supabase Services:** External authentication and database services
 
 ---
 
@@ -91,7 +91,7 @@ graph TB
 - **Preconditions:** User has valid credentials
 - **Main Flow:**
   1. User enters email and password
-  2. System validates credentials with Firebase Auth
+  2. System validates credentials with Supabase Auth
   3. System grants access based on user role
   4. User can logout to end session
 - **Alternative Flows:** 

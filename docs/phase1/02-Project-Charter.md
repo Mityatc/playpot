@@ -104,7 +104,7 @@ PlayPot will transform how local volleyball communities manage their matches by 
 ### 5.2 MVP Development Milestones
 | Milestone | Target Date | Description | Success Criteria |
 |-----------|-------------|-------------|------------------|
-| **M1** | Day 1 | Project setup & Firebase config | React app initialized, Firebase connected |
+| **M1** | Day 1 | Project setup & Supabase config | React app initialized, Supabase connected |
 | **M2** | Day 2-3 | Team & Player management | CRUD operations for teams/players |
 | **M3** | Day 4-5 | Match creation & distribution logic | Match form functional, money calculation working |
 | **M4** | Day 6 | Statistics & player cards | Player cards display stats and earnings |
@@ -117,22 +117,22 @@ PlayPot will transform how local volleyball communities manage their matches by 
 
 ### 6.1 Human Resources
 - **Frontend Developer:** React.js, Tailwind CSS expertise
-- **Backend Developer:** Node.js, Firebase experience
+- **Backend Developer:** SQL, Supabase experience
 - **UI/UX Designer:** Responsive design, user experience
 - **Project Manager:** Coordination, timeline management
 
 ### 6.2 Technical Resources
 - **Development Tools:** VS Code, Git, Node.js
-- **Cloud Services:** Firebase (Auth, Firestore, Hosting)
+- **Cloud Services:** Supabase (PostgreSQL, Auth, API)
 - **Design Tools:** Figma/Sketch for mockups
 - **Testing Tools:** Jest, React Testing Library
 
 ### 6.3 Budget Considerations
 - **Development:** Free (internal team)
-- **Firebase:** Free tier initially, paid tier if scaling
-- **Domain:** ~$12/year
-- **SSL Certificate:** Free (Let's Encrypt)
-- **Total Estimated Cost:** <$50 for first year
+- **Supabase:** Free tier initially, paid tier if scaling
+- **Domain:** Free with GitHub Student Pack
+- **SSL Certificate:** Free (included with hosting)
+- **Total Estimated Cost:** $0 for first year
 
 ---
 
@@ -143,12 +143,12 @@ PlayPot will transform how local volleyball communities manage their matches by 
 |------|-------------|---------|-------------------|
 | **Technical complexity** | Medium | High | Prototype core features early, seek technical mentorship |
 | **Timeline compression** | High | Medium | Prioritize MVP features, defer non-essential items |
-| **Firebase limitations** | Low | Medium | Research Firebase quotas, prepare alternative solutions |
+| **Supabase limitations** | Low | Medium | Research Supabase quotas, prepare alternative solutions |
 | **User adoption resistance** | Medium | High | Involve stakeholders in design, provide training |
 
 ### 7.2 Contingency Plans
 - **Scope Reduction:** Remove non-critical features if timeline pressure
-- **Technical Alternatives:** Research backup solutions for Firebase services
+- **Technical Alternatives:** Research backup solutions for Supabase services
 - **Extended Timeline:** Prepare 2-week extended development plan if needed
 
 ---

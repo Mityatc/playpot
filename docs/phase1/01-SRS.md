@@ -129,7 +129,7 @@ PlayPot is a standalone web application that will replace manual money tracking 
 ### 5.1 Technical Constraints
 - Must use web technologies (HTML, CSS, JavaScript)
 - Must be cloud-hosted for accessibility
-- Must use Firebase for backend services
+- Must use Supabase/PostgreSQL for backend services
 - Must implement responsive design principles
 
 ### 5.2 Business Constraints
@@ -152,7 +152,7 @@ PlayPot is a standalone web application that will replace manual money tracking 
 - Matches occur regularly (weekly)
 
 ### 6.2 Dependencies
-- Firebase services availability
+- Supabase services availability
 - Internet connectivity for all users
 - Admin availability for match result entry
 

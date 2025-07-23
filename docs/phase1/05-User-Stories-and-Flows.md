@@ -66,7 +66,7 @@ This document defines the user stories and user flows for PlayPot. User stories 
 
 **Acceptance Criteria:**
 - [ ] Admin can enter email and password
-- [ ] System validates credentials with Firebase Auth
+- [ ] System validates credentials with Supabase Auth
 - [ ] Successful login redirects to dashboard
 - [ ] Failed login shows appropriate error message
 - [ ] Password reset option available
