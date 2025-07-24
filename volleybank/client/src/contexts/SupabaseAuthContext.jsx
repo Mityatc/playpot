@@ -1,5 +1,5 @@
 import { createContext, useContext, useReducer, useEffect } from 'react'
-import { authAPI, realtimeAPI, handleSupabaseError } from '../services/supabaseAPI'
+import { authAPI, realtimeAPI, organizationAPI, handleSupabaseError } from '../services/supabaseAPI'
 import { supabase } from '../config/supabase'
 import toast from 'react-hot-toast'
 

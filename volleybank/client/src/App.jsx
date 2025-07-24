@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
-import { AuthProvider } from './contexts/AuthContext'
+import { SupabaseAuthProvider } from './contexts/SupabaseAuthContext'
 import { useAuth } from './hooks/useAuth'
 
 // Import pages
@@ -145,9 +145,9 @@ function AppContent() {
 function App() {
   return (
     <Router>
-      <AuthProvider>
-        <AppContent />
-      </AuthProvider>
+      <SupabaseAuthProvider>
+          <AppContent />
+      </SupabaseAuthProvider>
     </Router>
   )
 }
